@@ -67,5 +67,5 @@ function App() {
    </>
   );
 }
-
+export {Title}
 export default App;

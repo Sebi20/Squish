@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {useLocation, Link} from "react-router-dom"
+import { Title } from "../App";
 
 
 const Container = styled.div`
@@ -7,6 +8,14 @@ const Container = styled.div`
     border-radius: 1%;
     display: flex;
     width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+`;
+
+const Heading = styled.h1`
+    font-size: 80px;
+    text-align: center;
 `;
 
 const InnerContainer = styled.div`
@@ -28,6 +37,8 @@ function Squish(){
     const location = useLocation();
     return(
         <>
+            <Title>SQUISHMALLOWS</Title>
+            <Heading>Meet {location.state.name}</Heading>
             <Container>
                 <Img src={location.state.img}></Img>
                 <InnerContainer>
