@@ -61,4 +61,13 @@ export const images = [
         num: 1264,
         date: '9.29.21'
     },
+
+    {
+        url: 'https://squishmallows.com/home/wp-content/uploads/2021/06/0432-Brina.png',
+        name: 'Brina',
+        desc: 'Say hi to Brina the bigfoot. This confident little creature likes going on new adventures. Brina’s favorite season is winter because her favorite sport is snowboarding. She waits all year to participate in the local snowboarding competition.',
+        desc2: 'Pink Bigfoot with Fuzzy Ears',
+        num: 432,
+        date: '3.11.20'
+    }
 ]

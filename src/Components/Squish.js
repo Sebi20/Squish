@@ -20,6 +20,7 @@ const Heading = styled.h1`
 
 const InnerContainer = styled.div`
     /* background-color: red; */
+    padding: 5px;
 `;
 
 const P = styled.p`
@@ -37,7 +38,7 @@ function Squish(){
     const location = useLocation();
     return(
         <>
-            <Title>SQUISHMALLOWS</Title>
+            <Link to={'/'}><Title>SQUISHMALLOWS</Title></Link>
             <Heading>Meet {location.state.name}</Heading>
             <Container>
                 <Img src={location.state.img}></Img>
