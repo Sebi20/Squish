@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sebi20/Squish/static/css/main.e6c13ad2.css",
+    "main.js": "/Sebi20/Squish/static/js/main.b6d2de70.js",
+    "index.html": "/Sebi20/Squish/index.html",
+    "main.e6c13ad2.css.map": "/Sebi20/Squish/static/css/main.e6c13ad2.css.map",
+    "main.b6d2de70.js.map": "/Sebi20/Squish/static/js/main.b6d2de70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b6d2de70.js"
+  ]
+}
